@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: bisque;
+    background-image: linear-gradient(to right, rgb(35, 115, 206), rgb(6, 68, 119) );
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center; 
+    padding: 16px;   
+}
+
+a{
+    color: bisque;
+    text-decoration: none;
+    font-size: 18px;    
+}
+
+.center{
+    text-align: center;
+}
+
+p{
+    color: black;
+}
+
+h1{
+    color: rgb(5, 27, 77);
+}
+
+.botao1{
+  background-color: rgb(8, 68, 119);  
+  border-radius: 20px;
+  width: 5%;  
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.botao2{
+    background-color: rgb(35, 115, 206);
+    border-radius: 20px;
+    width: 10,5%;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
